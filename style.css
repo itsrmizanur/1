@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -28,3 +29,47 @@
 }
 
 /* Nav Bar ends */
+
+/*hero Section starts */
+.hero-section {
+    background-image: url("./img/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 250px 150px 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.hero-section h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.hero-section h1 {
+    max-width: 950px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700px;
+    line-height: 80px;
+    letter-spacing: o.2px;
+}
+.hero-section p {
+    text-align: center;
+    color: #f6f6f6;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    margin: 20px 0 50px 0;
+}
+.btn {
+    background-color: #FA4A0C;
+    color: white;
+    padding: 16px 50px;
+    border-radius: 30px;
+    border: 1px transparent;
+}
+.btn-outlined {
+    background-color: transparent;
+    border: 1px solid white;
+}
