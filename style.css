@@ -73,3 +73,20 @@
     background-color: transparent;
     border: 1px solid white;
 }
+/*hero Section ends */
+
+/*Showcase Section starts */
+.showcase {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.showcase img {
+    margin: -150px 0;
+    width: 500px;
+}
+.showcase-bottom-hr {
+    width: 50%;
+    margin: 0 auto;
+}
+/*Showcase Section ends */
