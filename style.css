@@ -90,3 +90,42 @@
     margin: 0 auto;
 }
 /*Showcase Section ends */
+
+.app-h3 {
+    font-size: 44px;
+    margin: 50px 0;
+    text-align: center;
+}
+.app-work-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 50px ;
+}
+.app-work-text {
+    max-width: 700px;
+}
+.app-work-section h3 {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px 0;
+    color: #FA4A0C;
+}
+.app-work-section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+.app-work-section h4 {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 15px 0;
+    color: #737373;
+}
+
+.section-2 {
+    flex-direction: row-reverse;
+}
+.botom-hero {
+    background-image: url("./img/bg2.png");
+}
