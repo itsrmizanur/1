@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* Nav Bar starts */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+}
+.menu-items a {
+    padding: 5px 10px;
+    margin: 5px 10px;
+    color: rgb(0, 0, 0);
+    
+}
+.menu-items a:hover {
+    color: red;
+}
+
+/* Nav Bar ends */
